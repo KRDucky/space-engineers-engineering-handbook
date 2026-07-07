@@ -1,7 +1,7 @@
 # SEEH AI Context — Terminology
 
 **Document ID:** SEEH-AI-CTX-001  
-**Version:** 0.1.1  
+**Revision:** 0.1.5  
 **Status:** Draft  
 **Last Updated:** 2026-07-07
 
@@ -137,7 +137,7 @@ A blueprint may include:
 
 A document capturing the rationale, alternatives considered, and outcome of a significant long-term engineering or documentation decision.
 
-EDRs are used when a decision affects naming, folder structure, documentation standards, implementation levels, mod support, system architecture, or blueprint philosophy (see `SEEH-AI-CTX-003 — Project Charter`, Section 17).
+EDRs are used when a decision affects naming, folder structure, documentation standards, implementation levels, mod support, system architecture, blueprint philosophy, testing requirements, or long-term compatibility (see `SEEH-000 — Project Charter`, Section 13).
 
 ---
 
@@ -229,13 +229,47 @@ Approved for general use.
 
 ## Deprecated
 
-Superseded by a newer document.
+Superseded by a newer document. Distinct from the Verification Vocabulary use of "Deprecated," which describes a superseded technical claim.
 
 ---
 
 ## Archived
 
 Retained for historical reference.
+
+---
+
+# Quality Levels
+
+The following terms describe how mature a design or document is, as defined in `SEEH-000 — Project Charter`, Section 10.
+
+Quality Levels are distinct from Documentation States above: Documentation States describe a document's editorial lifecycle (Draft, Review, Released, and so on), while Quality Levels describe confidence in the *engineering design itself* — how far it has progressed from written concept to community-verified build.
+
+## Bronze (Written)
+
+The document exists and is internally complete.
+
+---
+
+## Silver (Built)
+
+The design has been built in-game.
+
+---
+
+## Gold (Multiplayer Tested)
+
+The design has been tested with multiple players.
+
+---
+
+## Platinum (Community Verified)
+
+The design has been verified by multiple independent users or servers.
+
+---
+
+For the full definitions and context, see `SEEH-000 — Project Charter`, Section 10.
 
 ---
 
@@ -301,7 +335,7 @@ Provides final approval and performs in-game validation.
 
 ---
 
-See `SEEH-AI-CTX-003 — Project Charter`, Section 13, for the current mapping of these roles to specific AI assistants.
+See `SEEH-000 — Project Charter`, Section 14 (or `SEEH-AI-CTX-003`, Section 13, for the condensed summary), for the current mapping of these roles to specific AI assistants.
 
 ---
 
@@ -392,6 +426,10 @@ Consistent terminology produces consistent documentation.
 # Revision History
 
 | Version | Date | Author | Notes |
-|----------|------|--------|-------|
+|---|---|---|---|
 | 0.1.0 | 2026-07-07 | Ian Comings / ChatGPT | Initial draft. |
 | 0.1.1 | 2026-07-07 | Claude / Technical Editor | Added EDR definition; added Deprecated to Verification Vocabulary; clarified scope of duplicate terms (Verified, Experimental); standardized "Community Consensus" capitalization; clarified PB naming rule; added cross-references to SEEH-AI-CTX-002 and SEEH-AI-CTX-003; standardized document-ID formatting. |
+| 0.1.2 | 2026-07-07 | Claude / Technical Editor | Added "Quality Levels" section (Bronze/Silver/Gold/Platinum), cross-referencing SEEH-000 §10, to close a terminology gap flagged in the SEEH-000 standards audit. |
+| 0.1.3 | 2026-07-07 | Claude / Technical Editor | Updated EDR entry's trigger list and citation to match SEEH-000 §13 (added Testing requirements, Long-term compatibility); added SEEH-000 §14 as primary reference for AI Roles mapping, alongside existing SEEH-AI-CTX-003 §13 citation. Closes cross-reference drift flagged in SEEH-000 review. |
+| 0.1.4 | 2026-07-07 | Claude / Technical Editor | Fixed duplicated heading marker on the EDR entry; relocated the Quality Levels section to follow the complete Documentation States term list (Draft–Archived), resolving a heading-nesting defect where those terms structurally fell under Quality Levels instead of Documentation States. No definitions, terminology, or document IDs changed. |
+| 0.1.5 | 2026-07-07 | Claude / Technical Editor | Restored the correct Verification Vocabulary definition of "Deprecated" (a superseded claim/technique/configuration) after it had been overwritten with the Documentation States definition; corrected its disambiguation clause to point outward at Documentation States instead of at itself; added missing blank line before the "## Deprecated" heading in Verification Vocabulary for spacing consistency with the rest of the document. Added Quality Levels secondary names (Written/Built/Multiplayer Tested/Community Verified) and the Documentation States reciprocal disambiguation note, both applied in this same pass, are retained unchanged. |
