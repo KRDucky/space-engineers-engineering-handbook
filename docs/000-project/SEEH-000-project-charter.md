@@ -2,7 +2,7 @@
 
 **Project:** Space Engineers Engineering Handbook  
 **Document ID:** SEEH-000  
-**Revision:** 0.2.3  
+**Revision:** 0.2.4  
 **Status:** Released  
 **Last Updated:** 2026-07-07  
 
@@ -406,4 +406,4 @@ SEEH succeeds when:
 | 0.2.1 | 2026-07-07 | Claude / Technical Editor | Copy-edit pass: resolved pronoun ambiguity in §8.6 ("that mod" → "a given mod"). No engineering content, terminology, or structure changed. |
 | 0.2.2 | 2026-07-07 | Claude / Technical Editor | Standards-audit fixes: disambiguated "Deprecated" between document-status (§10) and evidence-state (§11) uses; added EDR-exemption clause for charter self-revisions (§13); blockquoted Guiding Principle (§19) for consistency with §3 and §14. |
 | 0.2.3 | 2026-07-07 | Claude / Technical Editor | Standardized all pipe-table formatting (§9, §10, §11, §14, §20) to tight single-space padding, matching the convention established in SEEH-AI-CTX-001 — Terminology. No table content, wording, or structure changed. |
-| [next version] | 2026-07-07 | [Human Project Lead name] | Approved for release following editorial and standards-consistency review (seeh-technical-edit, seeh-standards-audit, seeh-release-review). Status changed from Draft to Released. |
+| 0.2.4 | 2026-07-07 | Ian Comings | Approved for release following editorial and standards-consistency review (seeh-technical-edit, seeh-standards-audit, seeh-release-review). Status changed from Draft to Released. |
